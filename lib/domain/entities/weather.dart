@@ -10,6 +10,8 @@ class Weather {
   final String conditionIcon;
   final double windMph;
   final double windKph;
+  final double feelslikeC;
+  final double feelslikeF;
 
   Weather({
     required this.name,
@@ -23,5 +25,7 @@ class Weather {
     required this.conditionIcon,
     required this.windMph,
     required this.windKph,
+    required this.feelslikeC,
+    required this.feelslikeF,
   });
 }
