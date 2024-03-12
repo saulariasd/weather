@@ -27,4 +27,9 @@ class WeatherAPIDataSource extends WeatherDataSource {
       throw Exception({});
     }
   }
+
+  @override
+  Future<Weather> getWeather2({String cityName = 'Barcelona'}) {
+    throw UnimplementedError();
+  }
 }
